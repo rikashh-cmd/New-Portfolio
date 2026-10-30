@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Rikash — Software Engineering Student and Aspiring Web Developer.">
+  <title>Mohamed Rikash | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Rikash home">MR<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR INTERNSHIP OPPORTUNITIES</p>
+        <h1>Hello, I'm<br><span>Mohamed Rikash.</span></h1>
+        <h2>Software Engineering Student <span class="accent">|</span> Aspiring Web Developer</h2>
+        <p class="intro">I enjoy turning ideas into useful, responsive, and engaging digital experiences. I'm currently building my skills in software engineering and web development.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Contact me</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/rikashh-cmd" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><b>const</b> developer = {
+  name: <em>"Rikash"</em>,
+  role: <em>"Web Developer"</em>,
+  learning: [
+    <em>"HTML & CSS"</em>,
+    <em>"JavaScript"</em>,
+    <em>"Java"</em>
+  ],
+  passion: <em>"Building ideas"</em>
+};
+
+developer.<strong>create</strong>();</code></pre>
+        </div>
+        <span class="floating-tag tag-one"> &lt;/&gt; Clean code</span>
+        <span class="floating-tag tag-two">✦ Keep learning</span>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>A little about <span>myself.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-mark">MR<span>.</span></div>
+        <div class="about-text">
+          <h3>Curious mind. Creative builder. Future developer.</h3>
+          <p>I'm a BICT undergraduate at Uva Wellassa University, currently studying Software Engineering. I am interested in creating websites and applications that are simple to use and solve real problems.</p>
+          <p>I'm looking for opportunities to gain practical industry experience, learn from experienced developers, and improve my technical and teamwork skills.</p>
+          <div class="facts">
+            <div><span>Education</span><strong>BICT Undergraduate</strong></div>
+            <div><span>Focus</span><strong>Software Engineering</strong></div>
+            <div><span>Interest</span><strong>Web Development</strong></div>
+            <div><span>Also learning</span><strong>Digital Marketing</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / WHAT I DO</p><h2>Skills & <span>technologies.</span></h2><p class="section-subtitle">Technologies and tools I'm learning and using in my coursework and projects.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Frontend</h3><p>Building responsive interfaces with modern web technologies.</p><div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div></article>
+          <article class="skill-card"><div class="skill-icon">⌁</div><h3>Programming</h3><p>Developing programming fundamentals and problem-solving skills.</p><div class="chips"><span>Java</span><span>OOP</span><span>SQL</span></div></article>
+          <article class="skill-card"><div class="skill-icon">✳</div><h3>Tools & Creative</h3><p>Using development and design tools to create and present ideas.</p><div class="chips"><span>Git</span><span>GitHub</span><span>Canva</span><span>VS Code</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div><a class="text-link" href="https://github.com/rikashh-cmd" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-visual visual-one"><span>01</span><div class="visual-window"><b>Portfolio</b><div class="visual-line"></div><div class="visual-line short"></div><div class="visual-pill"></div></div></div><div class="project-info"><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio</h3><p>A responsive portfolio website to introduce myself, showcase skills, and share project work.</p><div class="project-bottom"><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="details-btn" data-project="portfolio">Details ↗</button></div></div></article>
+        <article class="project-card"><div class="project-visual visual-two"><span>02</span><div class="visual-shop"><div class="shop-circle"></div><b>STYLE<br>STORE</b><small>COLLECTION 2026</small></div></div><div class="project-info"><p class="project-type">FRONTEND PRACTICE</p><h3>Clothing Store Website</h3><p>A sample clothing store interface exploring product layouts and responsive design.</p><div class="project-bottom"><div class="chips"><span>Bootstrap</span><span>CSS</span></div><button class="details-btn" data-project="store">Details ↗</button></div></div></article>
+        <article class="project-card"><div class="project-visual visual-three"><span>03</span><div class="tank-visual"><div class="tank-water"></div><b>WATER LEVEL<br>MONITOR</b></div></div><div class="project-info"><p class="project-type">JAVA GUI</p><h3>Water Tank Alarm</h3><p>A Java Swing interface that displays water level information and changes alarm status based on a threshold.</p><div class="project-bottom"><div class="chips"><span>Java</span><span>Swing</span><span>OOP</span></div><button class="details-btn" data-project="tank">Details ↗</button></div></div></article>
+      </div>
+      <div class="github-panel"><div><p class="eyebrow">OPEN SOURCE / GITHUB</p><h3>More projects, straight from GitHub.</h3><p id="githubStatus" aria-live="polite">Loading public repositories…</p></div><a class="btn secondary" href="https://github.com/rikashh-cmd" target="_blank" rel="noopener noreferrer">Visit GitHub ↗</a></div>
+      <div class="repo-grid" id="repoGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="section section-soft" id="journey">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">04 / MY JOURNEY</p><h2>Always moving <span>forward.</span></h2></div>
+        <div class="timeline">
+          <article><span class="timeline-dot"></span><p class="timeline-date">PRESENT</p><h3>BICT Undergraduate</h3><p>Studying Information and Communication Technology with a focus on Software Engineering.</p></article>
+          <article><span class="timeline-dot"></span><p class="timeline-date">LEARNING</p><h3>Web Development</h3><p>Practising frontend development and building projects to strengthen my skills.</p></article>
+          <article><span class="timeline-dot"></span><p class="timeline-date">EXPERIENCE</p><h3>Digital Marketing</h3><p>Learning digital marketing and creating visual content using tools such as Canva.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section container" id="contact">
+      <div class="contact-card"><p class="eyebrow">05 / GET IN TOUCH</p><h2>Have a project or<br><span>opportunity in mind?</span></h2><p>I'm happy to connect, learn, and explore opportunities. Feel free to reach out.</p><a class="btn primary" href="mailto:your.email@example.com">Say hello <span>↗</span></a><div class="contact-foot"><span>EMAIL</span><a href="mailto:your.email@example.com">your.email@example.com</a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">MR<span>.</span></a><p>Designed & built by Mohamed Rikash · <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
+
+  <dialog class="project-modal" id="projectModal" aria-labelledby="modalTitle">
+    <div class="modal-content"><button class="modal-close" id="modalClose" aria-label="Close project details">×</button><p class="eyebrow">PROJECT DETAILS</p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="chips" id="modalTech"></div></div>
+  </dialog>
+</body>
+</html>
